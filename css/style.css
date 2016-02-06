@@ -24,3 +24,7 @@ ul.dotlist li  {
 .paragraph {
     padding: 0 20px;
 }
+
+img {
+    padding-right: 40px;
+}
