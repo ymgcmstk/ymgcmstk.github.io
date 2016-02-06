@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
@@ -22,42 +22,44 @@
   <div class="container">
     <div class="section">
       <div class="small-section">
-        <h5 id="">News</h5>
+        <h5 data-localize="Sections.News">News</h5>
         <ul class="dotlist">
-          <li>2016.02.10: We wrote an article for Nikkei BigData.</li>
-          <li>2016.01.15: I presented our achievement in ILSVRC2015 DET Task at nVidia Deep Learning Day 2016.</li>
-          <li>2015.12.09: 3rd place for ILSVRC2015 DET Task (Additional Data Track)</li>
+          <li data-localize="News.20160210">2016.02.10: We wrote an article for Nikkei BigData.</li>
+          <li data-localize="News.20160115">2016.01.15: I presented our achievement in ILSVRC2015 DET Task at nVidia Deep Learning Day 2016.</li>
+          <li data-localize="News.20151209">2015.12.09: 3rd place for ILSVRC2015 DET Task (Additional Data Track)</li>
         </ul>
       </div>
       <div class="small-section">
-        <h5>Biography</h5>
-        <div class="paragraph">I am a first year master student in the <a href="http://www.mi.t.u-tokyo.ac.jp/top2/">MI Lab.</a> at the University of Tokyo under the supervision of Prof. Tatsuya Harada. <br> My research focuses on image caption generation and high-quality object detection.
+        <h5 data-localize="Sections.Biography">Biography</h5>
+        <div class="paragraph" data-localize="Biography">I am a first year master student in the <a href="http://www.mi.t.u-tokyo.ac.jp/top2/">MI Lab.</a> at the University of Tokyo under the supervision of Prof. Tatsuya Harada. <br> My research focuses on image caption generation and high-quality object detection.
         </div>
       </div>
       <div class="small-section">
-        <h5>Publication</h5>
+        <h5 data-localize="Sections.Publication">Publication</h5>
         <ul class="dotlist">
           <li>Yoshitaka Ushiku, <b>Masataka Yamaguchi</b>, Yusuke Mukuta, Tatsuya Harada. Common Subspace for Model and Similarity: Phrase Learning for Sentence Generation from Images. In the 15th International Conference on Computer Vision (ICCV), 2015.</li>
         </ul>
       </div>
       <div class="small-section">
-        <h5>Others</h5>
+        <h5 data-localize="Sections.Others">Others</h5>
         <ul class="dotlist">
-          <li>Won 3rd place for still image object detection with additional data in Imagenet Large Scale Visual Recognition Challenge 2015</li>
+          <li data-localize="Others.ILSVRC2015">Won 3rd place for still image object detection with additional data in Imagenet Large Scale Visual Recognition Challenge 2015</li>
           <!-- (<a href="http://image-net.org/challenges/LSVRC/2015/results">result page</a>) -->
-          <li>Presented our achievement for ILSVRC2015 DET Task at nVidia Deep Learning Day 2016</li>
+          <li data-localize="Others.DLD2016">Presented our achievement for ILSVRC2015 DET Task at nVidia Deep Learning Day 2016</li>
           <!-- (<a href="http://www.slideshare.net/NVIDIAJapan/ss-57361969/22">slide</a>, 22~44) -->
-          <li>Wrote an article for Nikkei BigData (2016 Feb)</li>
+          <li data-localize="Others.Nikkei2016">Wrote an article for Nikkei BigData (2016 Feb)</li>
           <!-- () -->
         </ul>
       </div>
     </div>
 
-    <h5>Contact:</h5>
+    <h5 data-localize="Sections.Contact">Contact:</h5>
     <div>Email: yamaguchi[at]mi.t.u-tokyo.ac.jp
     </div>
 
   </div>
-
-  </body>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="js" src="js/jquery.localize.min.js" charset="utf-8"></script>
+<script type="js" src="js/evoke.js" charset="utf-8"></script>
 </html>
