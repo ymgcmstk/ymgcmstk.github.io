@@ -7,8 +7,20 @@
  */
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+    font-size: inherit;
+}
+
+.small-section {
+    margin-bottom: 30px;
+}
+
+ul.dotlist li  {
+    list-style-type: disc;
+}
+
+.paragraph {
+    padding: 0 20px;
 }
