@@ -1,6 +1,5 @@
 $(function(){
     var opts = {
-        language : lang,
         skipLanguage : "en",
         pathPrefix: "json"
     };
