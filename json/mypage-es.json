@@ -1,0 +1,24 @@
+{
+    "Myname": "Masataka Yamaguchi",
+    "Sections": {
+        "News"        : "News",
+        "Affiliation" : "Affiliation",
+        "Publication" : "Publication",
+        "Others"      : "Others",
+        "Links"       : "Links"
+    },
+    "News": {
+        "20160206": "2016.02.06: I have opened this page.",
+    },
+    "Affiliation": "I am a first year master student in the MI Lab. at the University of Tokyo under the supervision of Prof. Tatsuya Harada.",
+    "Others": {
+        "ILSVRC2015" : "2015.12: Won 3rd place for still image object detection with additional data in Imagenet Large Scale Visual Recognition Challenge 2015",
+        "DLD2016"    : "2016.01: Presented our achievement for ILSVRC2015 DET Task at nVidia Deep Learning Day 2016",
+        "Nikkei2016" : "2016.02: Wrote an article for Nikkei BigData"
+    },
+    "Links": {
+        "Lab": "Machine Intelligence Laboratory"
+    },
+    "NextLang": "[Japanese]",
+    "CurLang": "en"
+}
