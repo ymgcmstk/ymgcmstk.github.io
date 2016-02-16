@@ -8,7 +8,7 @@ $(function(){
         pathPrefix: "json"
     };
     // How can I get the language that is currently used?
-    $("[data-localize]").localize("mypage", {pathPrefix: "json"});
+    $("[data-localize]").localize("mypage", {pathPrefix: "json", language: "en"});
     $("#change-lang").click(function(){
         if ($("#cur-lang").text() == "ja") {
             $("[data-localize]").localize("mypage", {pathPrefix: "json", language: "en"});
