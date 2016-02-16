@@ -28,3 +28,7 @@ ul.dotlist li  {
 img {
     padding-right: 40px;
 }
+
+#cur-lang {
+    visibility: hidden;
+}
