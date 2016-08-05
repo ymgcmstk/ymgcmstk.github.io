@@ -1,0 +1,8 @@
+154073.png: http://mscoco.org/images/154073
+176791.png: http://mscoco.org/images/176791
+202270.png: http://mscoco.org/images/202270
+236354.png: http://mscoco.org/images/236354
+375380.png: http://mscoco.org/images/375380
+528642.png: http://mscoco.org/images/528642
+554182.png: http://mscoco.org/images/554182
+559840.png: http://mscoco.org/images/559840
